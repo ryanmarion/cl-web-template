@@ -24,12 +24,12 @@
 
 ;;; DJULA
 
-;; register the compilation directory fo' these templates
+;; register the compilation directory for these templates
 (djula:add-template-directory (asdf:system-relative-pathname "scratch" "templates/"))
 
 (setf (getf djula:*default-template-arguments* :var) 'some-value)
 
-;; register new termplerts that we compile
+;; register new templates that we compile
 (defparameter +base.html+ (djula:compile-template* "base.html"))
 (defparameter +welcome.html+ (djula:compile-template* "welcome.html"))
 (defparameter +login.html+ (djula:compile-template* "login.html"))

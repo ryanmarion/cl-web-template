@@ -18,7 +18,7 @@
         (:body ,@body))))
 
 ;; this uses the spinneret templating engine
-(easy-routes:defroute baz ("/baz" :method :get) ()
+(easy-routes:defroute home ("/" :method :get) ()
   (scratch-template:index))
 
 ;; this uses the djula (django-esque) templating engine
