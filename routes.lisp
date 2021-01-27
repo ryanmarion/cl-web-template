@@ -1,5 +1,5 @@
 ;;;; defroutes
-(in-package #:scratch)
+(in-package #:scratch-core)
 
 ;; basic routing
 (easy-routes:defroute foo ("/foo" :method :get) ()

@@ -1,5 +1,5 @@
 ;;;; scratch.lisp
 
-(in-package #:scratch)
+(in-package #:scratch-core)
 
 (defun main ())

@@ -4,7 +4,7 @@
   (:use #:cl #:spinneret)
   (:export :index :+welcome.html+ :+login.html+ :+register.html+))
 
-(defpackage #:scratch
+(defpackage #:scratch-core
   (:use #:cl))
 
 (defpackage #:scratch-server
