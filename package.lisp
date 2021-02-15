@@ -2,7 +2,7 @@
 
 (defpackage #:scratch-template
   (:use #:cl #:spinneret)
-  (:export :index :+welcome.html+ :+login.html+ :+register.html+))
+  (:export :+index.html+ :+welcome.html+ :+login.html+ :+register.html+))
 
 (defpackage #:scratch-core
   (:use #:cl))
